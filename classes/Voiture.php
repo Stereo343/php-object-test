@@ -6,7 +6,7 @@
  * Time: 09:31
  */
 
-class Voiture
+class Voiture extends Vehicule
 {
     public $couleur;
     public $masse;
