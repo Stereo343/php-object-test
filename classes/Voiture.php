@@ -12,6 +12,7 @@ class Voiture
     public $masse;
     public $marque;
     public $puissance;
+    public $vitesse;
 
     public function __construct($couleur, $masse, $marque, $puissance)
     {
@@ -25,5 +26,10 @@ class Voiture
     {
         $message = "La voiture a demarré";
         return $message;
+    }
+
+    public function calculerEnergieCinetique()
+    {
+        return $this -> masse / 2 * $this -> vitesse ** 2;
     }
 }

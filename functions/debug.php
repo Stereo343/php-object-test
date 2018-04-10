@@ -6,7 +6,8 @@
  * Time: 09:56
  */
 
-function debug($variable) {
+function debug($variable)
+{
     echo "<pre>";
     var_dump($variable);
     echo "</pre>";

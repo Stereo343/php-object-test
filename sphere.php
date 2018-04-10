@@ -22,7 +22,8 @@ if (isset($_POST["rayon"]))
         echo(sphereSurface($rayon));
         echo(sphereVolume($rayon));
     }
-    else {
+    else
+    {
         echo("le Rayon est magique, mais négatif");
     }
 }

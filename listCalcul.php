@@ -26,8 +26,9 @@ $message .= ("<p>with while</p>");
 $message .= ("<ul>");
 
 $x = 17827;
-while($x >= 14568) {
-    if($x % 24 == 0)
+while($x >= 14568)
+{
+    if ($x % 24 == 0)
     {
         $message .= ("<li>" . $x . "</li>");
     }
